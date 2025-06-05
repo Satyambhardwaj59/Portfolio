@@ -24,9 +24,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import daisyUILogo from './assets/tech_logo/daisyUILogo.png'
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import aagaaz from './assets/company_logo/aagaaz.jpeg';
+import nielit from './assets/company_logo/nielit.jpeg';
 
 // Education Section Logo's
 import nsitLogo from './assets/education_logo/nsitLogo.png';
@@ -40,6 +39,14 @@ import toDo from './assets/work_logo/toDo.png';
 import calculator from './assets/work_logo/calculator.png';
 import omniFood from './assets/work_logo/omniFood.png';
 import Ecomzy from './assets/work_logo/Ecomzy.png';
+import portfolio from './assets/work_logo/portfolio.png'
+
+// Achivments Section Logo's
+import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
+import gpmRanker from './assets/achivments_logo/gpmRanker.jpeg';
+import nsitRancker from './assets/achivments_logo/nsitRancker.jpg';
+
+
 
 
 
@@ -93,57 +100,39 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
+      img: aagaaz,
+      role: "Fullstack Developer Intern",
+      company: "Aagaaz Training Centre",
+      date: "May 2025 - Present",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
         "Redux",
-        " Next Js",
+        "Tailwind CSS",
+        "Node JS",
+        "MongoDb",
+        "Express JS",
       ],
     },
     {
       id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      img: nielit,
+      role: "Data Science Intern",
+      company: "NIELIT Patna",
+      date: "Nov 2023 - Dec 2023",
+      desc: "Completed a Data Science internship focused on Python programming, where I worked on real-world datasets, performed data cleaning, analysis, and built machine learning models using libraries like Pandas, NumPy, and Scikit-learn. Gained practical experience in data visualization, predictive modeling, and enhanced my skills in solving data-driven problems",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "Python",
+        "Data Science",
+        "Data Analysis",
+        "Data Visualization",
+        "Machine Learning"
       ],
     },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
+    
   ];
   
   export const education = [
@@ -191,6 +180,16 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      title: "Persnol Portfolio website",
+      description:
+        "Built a responsive personal portfolio website using React and Tailwind CSS to showcase my skills, projects, and achievements. The site features smooth navigation, modern design, and mobile-friendly layout, demonstrating my proficiency in frontend development and creating engaging user experiences.",
+      image: portfolio,
+      tags: ["React JS", "Tailwind-CSS"],
+      github: "https://github.com/Satyambhardwaj59/Portfolio",
+      webapp: "",
+    },
+    {
+      id: 3,
       title: "LeetCode Stats Tracker",
       description:
         "This is a frontend web application built using JavaScript, HTML, and CSS that fetches and displays LeetCode user statistics through their public API. By entering a username, users can view how many coding problems they've solved, categorized by difficulty levels (Easy, Medium, Hard). The project features a clean, responsive UI and demonstrates effective API integration, DOM manipulation, and real-time data presentation. It highlights my ability to create practical and interactive tools using core web technologies.",
@@ -200,7 +199,7 @@ export const SkillsInfo = [
       webapp: "https://leet-matrix-two.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Weather App",
       description:
         "A responsive weather app built with JavaScript, HTML, and CSS that uses the OpenWeather API to provide real-time weather data. Users can search cities to view current temperature, humidity, and conditions. The project highlights API integration, asynchronous data fetching, and a clean, user-friendly interface.",
@@ -210,7 +209,7 @@ export const SkillsInfo = [
       webapp: "https://weather-app-beta-ten-87.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "To Do App",
       description:
         "A simple and intuitive To-Do app built with JavaScript, HTML, and CSS that allows users to add, edit, and delete tasks. It features local storage to save tasks persistently, helping users manage their daily activities efficiently with a clean and responsive user interface.",
@@ -220,7 +219,7 @@ export const SkillsInfo = [
       webapp: "https://to-do-list-satyam-kumars-projects-4080f490.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Calculator",
       description:
         "A functional calculator app built using JavaScript, HTML, and CSS that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean and responsive design with intuitive buttons, showcasing skills in DOM manipulation, event handling, and user interface development.",
@@ -230,7 +229,7 @@ export const SkillsInfo = [
       webapp: "https://basic-calculator-teal.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Responsive OmniFood",
       description:
         "This is a responsive landing page for a fictional AI-powered meal subscription service, built using HTML and CSS. The design emphasizes modern aesthetics and user experience, featuring a clean layout with sections for meal plans, testimonials, and pricing. The project demonstrates proficiency in creating visually appealing, mobile-friendly websites suitable for showcasing subscription-based services",
@@ -241,6 +240,39 @@ export const SkillsInfo = [
     },
     
   ];  
+
+  export const achivments = [
+    {
+      id: 0,
+      title: "Best event Cordinator in Collage Annual Tech-fest",
+      description:
+        "I'm incredibly grateful to have received the Best Coordinator Award at our college's Annual Tech Fest. Organizing this event alongside such a passionate and talented team was a truly rewarding experience. From planning sessions to late-night troubleshooting, every moment was a learning opportunity and a memory to cherish.",
+      image: bestCordinotor,
+      tags: ["Leader Ship", "Cordinator", "Event Planning"],
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 1,
+      title: "3rd Rank in B.Tech",
+      description:
+        "Secured 3rd rank in the previous semester of B.Tech, reflecting strong academic performance and dedication to consistent excellence.",
+      image: nsitRancker,
+      tags: [""],
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 2,
+      title: "1st Rank in Diploma ",
+      description:
+        "Achieved 1st rank in Diploma in Electrical Engineering, demonstrating academic excellence and strong subject proficiency.",
+      image: gpmRanker,
+      tags: [""],
+      github: "",
+      webapp: "",
+    },
+  ];
 
 
 
