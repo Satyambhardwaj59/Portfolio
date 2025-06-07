@@ -39,7 +39,8 @@ import toDo from './assets/work_logo/toDo.png';
 import calculator from './assets/work_logo/calculator.png';
 import omniFood from './assets/work_logo/omniFood.png';
 import Ecomzy from './assets/work_logo/Ecomzy.png';
-import portfolio from './assets/work_logo/portfolio.png'
+import portfolio from './assets/work_logo/portfolio.png';
+import foodApp from './assets/work_logo/foodApp.png';
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -162,6 +163,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Food Ordering Web App",
+      description:
+        "Built a food ordering web app using React, Tailwind CSS, and Redux Toolkit, inspired by Swiggy. The app was designed to fetch real-time restaurant and menu data via Swiggy’s live API, featuring dynamic routing with React Router, interactive UI with React Slick carousels, icons from React Icons, and toast notifications using React Hot Toast. Modular components were structured with modern React Hooks, and core functionality was tested using Jest. Although the project is well-structured and feature-rich, it is currently not live due to CORS policy restrictions on the Swiggy API.",
+      image: foodApp,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "API"],
+      github: "https://github.com/Satyambhardwaj59/React",
+      webapp: "",
+    },
+    {
+      id: 1,
       title: "E-Commerce Web Application",
       description:
         "This is a fully responsive e-commerce frontend web application built using React.js, showcasing a modern and user-friendly UI with product listings, filtering, and navigation features. Designed to mimic a real-world shopping experience, this project highlights my skills in building visually appealing, component-driven interfaces using React, along with clean code structure and performance-optimized layouts. It demonstrates my ability to create scalable and interactive UI designs suitable for integration with backend services.",
@@ -171,7 +182,7 @@ export const SkillsInfo = [
       webapp: "https://react-e-commerce-two-gules.vercel.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "YouTube Clone",
       description:
         "This is a YouTube-inspired frontend application built using React and Tailwind CSS, focused on delivering a smooth and responsive user experience. It integrates the YouTube Data API to provide efficient video search with live suggestions, optimized API calls, and interactive features like nested comments, like buttons, and shimmer UI for loading states. The project highlights my skills in building real-world, API-driven interfaces with performance and user experience in mind. (Currently not live.)",
@@ -181,7 +192,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Persnol Portfolio website",
       description:
         "Built a responsive personal portfolio website using React and Tailwind CSS to showcase my skills, projects, and achievements. The site features smooth navigation, modern design, and mobile-friendly layout, demonstrating my proficiency in frontend development and creating engaging user experiences.",
@@ -191,7 +202,7 @@ export const SkillsInfo = [
       webapp: "https://portfolio-satyam-kumars-projects-4080f490.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "LeetCode Stats Tracker",
       description:
         "This is a frontend web application built using JavaScript, HTML, and CSS that fetches and displays LeetCode user statistics through their public API. By entering a username, users can view how many coding problems they've solved, categorized by difficulty levels (Easy, Medium, Hard). The project features a clean, responsive UI and demonstrates effective API integration, DOM manipulation, and real-time data presentation. It highlights my ability to create practical and interactive tools using core web technologies.",
@@ -201,7 +212,7 @@ export const SkillsInfo = [
       webapp: "https://leet-matrix-two.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather App",
       description:
         "A responsive weather app built with JavaScript, HTML, and CSS that uses the OpenWeather API to provide real-time weather data. Users can search cities to view current temperature, humidity, and conditions. The project highlights API integration, asynchronous data fetching, and a clean, user-friendly interface.",
@@ -211,7 +222,7 @@ export const SkillsInfo = [
       webapp: "https://weather-app-beta-ten-87.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "To Do App",
       description:
         "A simple and intuitive To-Do app built with JavaScript, HTML, and CSS that allows users to add, edit, and delete tasks. It features local storage to save tasks persistently, helping users manage their daily activities efficiently with a clean and responsive user interface.",
@@ -221,7 +232,7 @@ export const SkillsInfo = [
       webapp: "https://to-do-list-satyam-kumars-projects-4080f490.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Calculator",
       description:
         "A functional calculator app built using JavaScript, HTML, and CSS that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean and responsive design with intuitive buttons, showcasing skills in DOM manipulation, event handling, and user interface development.",
@@ -231,7 +242,7 @@ export const SkillsInfo = [
       webapp: "https://basic-calculator-teal.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Responsive OmniFood",
       description:
         "This is a responsive landing page for a fictional AI-powered meal subscription service, built using HTML and CSS. The design emphasizes modern aesthetics and user experience, featuring a clean layout with sections for meal plans, testimonials, and pricing. The project demonstrates proficiency in creating visually appealing, mobile-friendly websites suitable for showcasing subscription-based services",
