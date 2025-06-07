@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -9,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
 import Achivments from "./components/Achivments/Achivments";
+import Certification from "./components/Certification/Certification";
 
 const App = () => {
   return (
@@ -26,6 +26,7 @@ const App = () => {
         <Work />
         <Education />
         <Achivments/>
+        <Certification/>
         <Contact />
         <Footer />
       </div>

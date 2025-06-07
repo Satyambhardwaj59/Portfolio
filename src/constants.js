@@ -45,6 +45,8 @@ import portfolio from './assets/work_logo/portfolio.png'
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
 import gpmRanker from './assets/achivments_logo/gpmRanker.jpeg';
 import nsitRancker from './assets/achivments_logo/nsitRancker.jpg';
+import javaScript from './assets/achivments_logo/javaScript.webp';
+import htmlCss from './assets/achivments_logo/HTML-CSS.jpg'
 
 
 
@@ -186,7 +188,7 @@ export const SkillsInfo = [
       image: portfolio,
       tags: ["React JS", "Tailwind-CSS"],
       github: "https://github.com/Satyambhardwaj59/Portfolio",
-      webapp: "",
+      webapp: "https://portfolio-satyam-kumars-projects-4080f490.vercel.app/",
     },
     {
       id: 3,
@@ -271,6 +273,25 @@ export const SkillsInfo = [
       tags: [""],
       github: "",
       webapp: "",
+    },
+  ];
+
+  export const certificate = [
+    {
+      id: 0,
+      title: "JavaScript Certification — NamasteDev.com",
+      description:
+        "Completed an in-depth JavaScript course taught by Akshay Saini, covering foundational to advanced topics including execution context, closures, hoisting, event loop, asynchronous JS, promises, and more. Strengthened core JavaScript skills with practical coding exercises and real-world concepts.",
+      image: javaScript,
+      tags: ["JavaScript"],
+    },
+    {
+      id: 1,
+      title: "HTML, CSS, and Responsive Web Design Certification",
+      description:
+        "Platform: Udemy ,  Completed a detailed course focused on building modern, responsive websites using HTML5 and CSS3. Gained hands-on experience with layout techniques like Flexbox and Grid, media queries, and responsive design principles to ensure seamless performance across devices. Built real-world projects to solidify frontend development skills.",
+      image: htmlCss,
+      tags: ["HTML", "CSS", "Responsive Web Design"],
     },
   ];
 
