@@ -41,6 +41,7 @@ import omniFood from './assets/work_logo/omniFood.png';
 import Ecomzy from './assets/work_logo/Ecomzy.png';
 import portfolio from './assets/work_logo/portfolio.png';
 import foodApp from './assets/work_logo/foodApp.png';
+import prescripto from './assets/work_logo/prescripto-shot.png'
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -161,6 +162,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    {
+      id: 9,
+      title: "Prescripto – A Modern Healthcare App",
+      description:
+        "Prescription App UI is a responsive healthcare interface built with React , React Router, Redux and Tailwind CSS  using Vite for fast bundling. It features user-friendly pages for doctor listings, login/signup, appointments, and prescription viewing. The app is optimized for seamless navigation and mobile responsiveness, showcasing clean UI design and efficient component structuring ready for backend integration.",
+      image: prescripto,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS"],
+      github: "https://github.com/Satyambhardwaj59/prescripto-UI",
+      webapp: "https://prescripto-ui.vercel.app/",
+    },
     {
       id: 0,
       title: "Food Ordering Web App",
