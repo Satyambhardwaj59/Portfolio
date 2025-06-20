@@ -65,7 +65,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-
+            <hr />
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
           © 2025 Satyam Kumar. All rights reserved.

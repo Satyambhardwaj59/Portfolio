@@ -48,7 +48,8 @@ import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
 import gpmRanker from './assets/achivments_logo/gpmRanker.jpeg';
 import nsitRancker from './assets/achivments_logo/nsitRancker.jpg';
 import javaScript from './assets/achivments_logo/javaScript.webp';
-import htmlCss from './assets/achivments_logo/HTML-CSS.jpg'
+import htmlCss from './assets/achivments_logo/HTML-CSS.jpg';
+import ReactCertificate from './assets/achivments_logo/React-Certificate.webp'
 
 
 
@@ -301,6 +302,14 @@ export const SkillsInfo = [
   export const certificate = [
     {
       id: 0,
+      title: "React Certification — NamasteDev.com",
+      description:
+        "Earned React Certification from Namaste React by Akshay Saini at NamasteDev.com. Gained hands-on expertise in React Hooks, Redux, Routing, State Management, Performance Optimization, and Live Projects—building scalable, maintainable, and production-ready Single Page Applications using modern React practices.",
+      image: ReactCertificate,
+      tags: ["ReactJS", "Redux", "Tailwind CSS", "JEST", "React Testing Library", "JSX", "Babel", "Bundlers"],
+    },
+    {
+      id: 1,
       title: "JavaScript Certification — NamasteDev.com",
       description:
         "Completed an in-depth JavaScript course taught by Akshay Saini, covering foundational to advanced topics including execution context, closures, hoisting, event loop, asynchronous JS, promises, and more. Strengthened core JavaScript skills with practical coding exercises and real-world concepts.",
@@ -308,7 +317,7 @@ export const SkillsInfo = [
       tags: ["JavaScript"],
     },
     {
-      id: 1,
+      id: 2,
       title: "HTML, CSS, and Responsive Web Design Certification",
       description:
         "Platform: Udemy ,  Completed a detailed course focused on building modern, responsive websites using HTML5 and CSS3. Gained hands-on experience with layout techniques like Flexbox and Grid, media queries, and responsive design principles to ensure seamless performance across devices. Built real-world projects to solidify frontend development skills.",
