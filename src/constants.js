@@ -165,13 +165,13 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 9,
-      title: "Prescripto – A Modern Healthcare App",
+      title: "Doctor Appointment Booking Web Application",
       description:
-        "Prescription App UI is a responsive healthcare interface built with React , React Router, Redux and Tailwind CSS  using Vite for fast bundling. It features user-friendly pages for doctor listings, login/signup, appointments, and prescription viewing. The app is optimized for seamless navigation and mobile responsiveness, showcasing clean UI design and efficient component structuring ready for backend integration.",
+        "Doctor Appointment Booking Web Application – A feature-rich full-stack project built with the MERN stack and deployed on Render. Integrated Cloudinary for secure media management, Razorpay for seamless online payments, and RESTful APIs to ensure efficient backend communication. Implemented role-based access control for Admins, Doctors, and Patients with dynamic dashboards, enabling appointment scheduling, prescription management, user authentication, and real-time status updates. Optimized performance with lazy loading, modular architecture, and a fully responsive UI for cross-device compatibility.",
       image: prescripto,
-      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS"],
-      github: "https://github.com/Satyambhardwaj59/prescripto-UI",
-      webapp: "https://prescripto-ui.vercel.app/",
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "Express.js", "Express.js", "JWT", "Razorpay", "Cloudinary", "Render", "Git & GitHub", "Postman", "Dotenv"],
+      github: "https://github.com/Satyambhardwaj59/Doctor-Appointment-Booking",
+      webapp: "https://doctor-appointment-booking-frontend-ec9x.onrender.com/",
     },
     {
       id: 0,
@@ -212,6 +212,16 @@ export const SkillsInfo = [
       tags: ["React JS", "Tailwind-CSS"],
       github: "https://github.com/Satyambhardwaj59/Portfolio",
       webapp: "https://portfolio-satyam-kumars-projects-4080f490.vercel.app/",
+    },
+    {
+      id: 10,
+      title: "Prescripto – A Modern Healthcare App",
+      description:
+        "Prescription App UI is a responsive healthcare interface built with React , React Router, Redux and Tailwind CSS  using Vite for fast bundling. It features user-friendly pages for doctor listings, login/signup, appointments, and prescription viewing. The app is optimized for seamless navigation and mobile responsiveness, showcasing clean UI design and efficient component structuring ready for backend integration.",
+      image: prescripto,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS"],
+      github: "https://github.com/Satyambhardwaj59/prescripto-UI",
+      webapp: "https://prescripto-ui.vercel.app/",
     },
     {
       id: 4,
