@@ -41,7 +41,8 @@ import omniFood from './assets/work_logo/omniFood.png';
 import Ecomzy from './assets/work_logo/Ecomzy.png';
 import portfolio from './assets/work_logo/portfolio.png';
 import foodApp from './assets/work_logo/foodApp.png';
-import prescripto from './assets/work_logo/prescripto-shot.png'
+import prescripto from './assets/work_logo/prescripto-shot.png';
+import devConnect from './assets/work_logo/devConnect.png';
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -169,9 +170,19 @@ export const SkillsInfo = [
       description:
         "Doctor Appointment Booking Web Application – A feature-rich full-stack project built with the MERN stack and deployed on Render. Integrated Cloudinary for secure media management, Razorpay for seamless online payments, and RESTful APIs to ensure efficient backend communication. Implemented role-based access control for Admins, Doctors, and Patients with dynamic dashboards, enabling appointment scheduling, prescription management, user authentication, and real-time status updates. Optimized performance with lazy loading, modular architecture, and a fully responsive UI for cross-device compatibility.",
       image: prescripto,
-      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "Express.js", "Express.js", "JWT", "Razorpay", "Cloudinary", "Render", "Git & GitHub", "Postman", "Dotenv"],
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Razorpay", "Cloudinary", "Render", "Git & GitHub", "Postman", "Dotenv"],
       github: "https://github.com/Satyambhardwaj59/Doctor-Appointment-Booking",
       webapp: "https://doctor-appointment-booking-frontend-ec9x.onrender.com/",
+    },
+    {
+      id: 11,
+      title: "DevConnect",
+      description:
+        "Tinder-Inspired Social Matchmaking Web Application – Developed a full-stack web app using the MERN stack (MongoDB, Express.js, React.js, Node.js), deployed on AWS EC2 for high availability and scalability. Implemented swipe-based matching logic, real-time chat, and secure user authentication with HTTP-only cookies for session handling. Designed and built RESTful APIs for profile management, messaging, and user preferences. Delivered a fully responsive and mobile-friendly UI, optimized with React best practices, reusable components, and dynamic routing. Emphasized performance optimization, scalable backend architecture, and strong user experience design.",
+      image: devConnect,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Cookies", "AWS", "Git & GitHub", "Postman", "Dotenv"],
+      github: "https://github.com/Satyambhardwaj59/DevConnect-Backend",
+      webapp: "http://13.235.82.40",
     },
     {
       id: 0,
