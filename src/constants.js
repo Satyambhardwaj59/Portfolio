@@ -53,6 +53,7 @@ import nsitRancker from './assets/achivments_logo/nsitRancker.jpg';
 import javaScript from './assets/achivments_logo/javaScript.webp';
 import htmlCss from './assets/achivments_logo/HTML-CSS.jpg';
 import ReactCertificate from './assets/achivments_logo/React-Certificate.webp'
+import nodeCertificate from './assets/achivments_logo/Node.js.webp'
 
 
 
@@ -357,6 +358,14 @@ export const SkillsInfo = [
   ];
 
   export const certificate = [
+    {
+      id: 2,
+      title: "Node.js Certification — NamasteDev.com",
+      description:
+        "Certified in Node.js Development from NamasteDev.com by Akshay Saini, showcasing skills in building scalable backend apps using Node.js, Express, MongoDB, and Mongoose. Covered integrations with AWS, Amazon SES, Razorpay, WebSocket, and automation using cron jobs, reflecting practical knowledge of modern backend systems.",
+      image: nodeCertificate,
+      tags: ["Node.js", "Express", "Mongoose", "AWS", "Razorpay", "WebSocket", "REST API", "Postman", "etc.."],
+    },
     {
       id: 0,
       title: "React Certification — NamasteDev.com",
