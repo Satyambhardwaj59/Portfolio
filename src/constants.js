@@ -26,6 +26,7 @@ import daisyUILogo from './assets/tech_logo/daisyUILogo.png'
 // Experience Section Logo's
 import aagaaz from './assets/company_logo/aagaaz.jpeg';
 import nielit from './assets/company_logo/nielit.jpeg';
+import commusync from './assets/company_logo/commusync_logo.jpeg'
 
 // Education Section Logo's
 import nsitLogo from './assets/education_logo/nsitLogo.png';
@@ -106,11 +107,35 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
+      id: 2,
+      img: commusync,
+      role: "Fullstack Developer Intern",
+      company: "CommuSync",
+      date: "July 2025 - Present",
+      desc: "At CommuSync, I contributed to building a scalable web platform by developing reusable and responsive UI components in React.js with TailwindCSS, improving cross-device performance and reducing page load time significantly. On the backend, I designed and integrated secure RESTful APIs using Node.js and Express.js, implemented efficient state management with React Hooks and Context API, and refactored server logic for modularity and reusability. My work improved API response time and streamlined data flow across the application, while collaborating closely with the team ensured faster feature delivery and consistent architecture across frontend and backend modules.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "Redux",
+        "Tailwind CSS",
+        "Node JS",
+        "MongoDb",
+        "Express JS",
+        "RESTful APIs",
+        "Git & GitHub",
+        "Postman",
+        "React Hooks",
+        "Context API",
+      ],
+    },
+    {
       id: 0,
       img: aagaaz,
       role: "Fullstack Developer Intern",
       company: "Aagaaz Training Centre",
-      date: "May 2025 - Present",
+      date: "May 2025 - June 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
