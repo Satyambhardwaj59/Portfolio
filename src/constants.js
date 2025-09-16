@@ -43,6 +43,7 @@ import portfolio from './assets/work_logo/portfolio.png';
 import foodApp from './assets/work_logo/foodApp.png';
 import prescripto from './assets/work_logo/prescripto-shot.png';
 import devConnect from './assets/work_logo/devConnect.png';
+import loginity from './assets/work_logo/loginity.png';
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -163,7 +164,7 @@ export const SkillsInfo = [
     
   ];
   
-  export const projects = [
+  export const projects = [ 
     {
       id: 9,
       title: "Doctor Appointment Booking Web Application",
@@ -173,6 +174,16 @@ export const SkillsInfo = [
       tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Razorpay", "Cloudinary", "Render", "Git & GitHub", "Postman", "Dotenv"],
       github: "https://github.com/Satyambhardwaj59/Doctor-Appointment-Booking",
       webapp: "https://doctor-appointment-booking-frontend-ec9x.onrender.com/",
+    },
+    {
+      id: 12,
+      title: "Loginity -- MERN Stack Authentication System",
+      description:
+        "Loginity (Authentication App) – A full-stack authentication platform built with the MERN stack, featuring secure login and signup using JWT stored in HttpOnly cookies, middleware-protected routes, and robust account recovery through email verification with OTP and password reset via Nodemailer. The app includes a responsive and modern TailwindCSS UI, achieving a 95+ Lighthouse accessibility score, and was deployed successfully as a reusable boilerplate for future MERN applications.",
+      image: loginity,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Vercel", "Git & GitHub", "Postman", "Dotenv"],
+      github: "https://github.com/Satyambhardwaj59/Loginity",
+      webapp: "https://loginity-auth-7y5t.vercel.app/",
     },
     {
       id: 11,
