@@ -45,6 +45,8 @@ import foodApp from './assets/work_logo/foodApp.png';
 import prescripto from './assets/work_logo/prescripto-shot.png';
 import devConnect from './assets/work_logo/devConnect.png';
 import loginity from './assets/work_logo/loginity.png';
+import lernix from './assets/work_logo/lernix.png'
+import jwt_decoder from './assets/work_logo/jwt-decoder.png'
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -192,6 +194,16 @@ export const SkillsInfo = [
   
   export const projects = [ 
     {
+      id: 13,
+      title: "LERNIX - Learning Management System Platform",
+      description:
+        "This LMS is a full-stack platform built with React.js, Node.js, MongoDB, and Tailwind CSS to simplify online learning. Educators can create and manage courses with multimedia content, while students can enroll, track progress, and access materials through a personalized dashboard. The system features analytics, progress tracking, and role-based authentication for secure access. Designed to be responsive and scalable, it efficiently handles multiple courses and users. This project showcases my skills in full-stack development, API design, and modern web development.",
+      image: lernix,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "React Router", "Axios",  "Node.js", "Express.js", "MongoDB", "Mongoose", "Clerk", "JWT", "Stripe", "Cloudinary", "Vercel", "Toastify", "Git & GitHub", "Postman", "Dotenv"],
+      github: "https://github.com/Satyambhardwaj59/LERNIX",
+      webapp: "https://lernix-tau.vercel.app/",
+    },
+    {
       id: 9,
       title: "Doctor Appointment Booking Web Application",
       description:
@@ -220,6 +232,16 @@ export const SkillsInfo = [
       tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Cookies", "AWS", "Git & GitHub", "Postman", "Dotenv"],
       github: "https://github.com/Satyambhardwaj59/DevConnect-Backend",
       webapp: "http://13.235.82.40",
+    },
+    {
+      id: 14,
+      title: "JWT - DECODER",
+      description:
+        "The JWT Decoder is a web tool built with React.js and Tailwind CSS that allows users to decode JSON Web Tokens (JWTs) instantly. Users can paste a JWT or upload a file (.txt or .jwt) and view the Header and Payload in a readable format. The decoded token can be downloaded as a JSON file for easy use. The tool also displays a real-time world clock using a free API. With a responsive and minimal UI, this project demonstrates my skills in frontend development, React state management, and building practical developer utilities.",
+      image: jwt_decoder,
+      tags: ["Tailwind-CSS", "JavaScript", "React JS", "API", "JWT"],
+      github: "https://github.com/Satyambhardwaj59/JWT-DECODER",
+      webapp: "https://jwt-decoder-lime.vercel.app/",
     },
     {
       id: 0,
