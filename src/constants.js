@@ -49,6 +49,7 @@ import loginity from './assets/work_logo/loginity.png';
 import lernix from './assets/work_logo/lernix.png'
 import jwt_decoder from './assets/work_logo/jwt-decoder.png'
 import quiz from './assets/work_logo/AI-quiz.png'
+import crypto from './assets/work_logo/crypto.png'
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -251,6 +252,16 @@ export const projects = [
     tags: ["Tailwind-CSS", "JavaScript", "React JS", "ReduxJS", "React Router", "Axios", "Toastify", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Razorpay", "Cloudinary", "Render", "Git & GitHub", "Postman", "Dotenv"],
     github: "https://github.com/Satyambhardwaj59/Doctor-Appointment-Booking",
     webapp: "https://doctor-appointment-booking-frontend-ec9x.onrender.com/",
+  },
+  {
+    id: 15,
+    title: "CryptoVerse - Cryptocurrency Analytics Platform",
+    description:
+      "Built a production-ready cryptocurrency analytics and paper trading platform using MERN stack, featuring real-time market tracking, virtual crypto trading, portfolio analytics, Socket.io live updates, JWT authentication, whale tracking, advanced charts, and PWA support.",
+    image: crypto,
+    tags: ["Tailwind-CSS", "JavaScript", "React JS", "ContextAPI", "React Router", "Axios", "React Chart", "Node.js", "Express.js", "MongoDB", "Mongoose", "Vercel", "Git & GitHub", "Postman", "Dotenv"],
+    github: "https://github.com/Satyambhardwaj59/Cryptocurrency-Tracker",
+    webapp: "https://cryptocurrency-tracker-fe35.vercel.app/",
   },
   {
     id: 12,
