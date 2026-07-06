@@ -50,6 +50,7 @@ import lernix from './assets/work_logo/lernix.png'
 import jwt_decoder from './assets/work_logo/jwt-decoder.png'
 import quiz from './assets/work_logo/AI-quiz.png'
 import crypto from './assets/work_logo/crypto.png'
+import krishiSetu from './assets/work_logo/krishiSetu.png'
 
 // Achivments Section Logo's
 import bestCordinotor from './assets/achivments_logo/best-cordinator.jpeg';
@@ -116,10 +117,10 @@ export const experiences = [
   {
     id: 3,
     img: walsis,
-    role: "Fullstack Developer Trainee",
+    role: "Fullstack Developer",
     company: "Walsis eConnect India Pvt Ltd",
     date: "Dec 2025 - Present",
-    desc: "At Walsis eConnect India Pvt Ltd, I contributed as a Fullstack Developer Trainee by building scalable and high-performance web features using React.js, Next.js, and Tailwind CSS, ensuring responsive and reusable UI across devices. On the backend, I designed and integrated secure RESTful APIs using Node.js and Express.js, and managed data efficiently with MongoDB. I implemented dynamic user-focused features such as content-based data processing, customizable workflows, real-time interactions, and performance tracking systems. Additionally, I optimized state management using React Hooks, Context API, and Redux, significantly enhancing application performance, reducing load time, and improving data flow. I also focused on modular architecture, code reusability, and seamless frontend-backend integration, contributing to faster development cycles and an improved overall user experience.",
+    desc: "At Walsis eConnect India Pvt Ltd, I contributed as a Fullstack Developer by building scalable and high-performance web features using React.js, Next.js, and Tailwind CSS, ensuring responsive and reusable UI across devices. On the backend, I designed and integrated secure RESTful APIs using Node.js and Express.js, and managed data efficiently with MongoDB. I implemented dynamic user-focused features such as content-based data processing, customizable workflows, real-time interactions, and performance tracking systems. Additionally, I optimized state management using React Hooks, Context API, and Redux, significantly enhancing application performance, reducing load time, and improving data flow. I also focused on modular architecture, code reusability, and seamless frontend-backend integration, contributing to faster development cycles and an improved overall user experience.",
     skills: [
       "HTML",
       "CSS",
@@ -223,6 +224,16 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 15,
+    title: "KrishiSetu – B2B Agricultural Marketplace",
+    description:
+     "KrishiSetu is a full-stack MERN application that connects farmers directly with bulk buyers, creating a transparent and secure agricultural marketplace while reducing dependency on intermediaries. The platform enables farmers to showcase their products, manage inventory, and receive fair pricing, while buyers can easily discover, compare, and purchase agricultural products in bulk. The application includes separate portals for Farmers, Buyers, and Administrators. Farmers can complete KYC verification, upload crop listings with images, manage orders, and track sales. Buyers can browse products, filter listings based on crop type and location, communicate directly with farmers, and place secure bulk orders. Administrators can verify users, manage disputes, monitor transactions, and oversee platform operations through a centralized dashboard. KrishiSetu also features an intelligent weather advisory system powered by the Open-Meteo API, providing current weather conditions, hourly forecasts, and 7-day predictions. Based on rainfall, temperature, and wind speed, the platform generates crop recommendations and automatically notifies farmers about severe weather conditions to support informed farming decisions. To improve user experience, the platform includes real-time messaging and notifications using Socket.IO, allowing instant communication between buyers and farmers. Secure escrow-based payments are integrated through Razorpay, ensuring that funds are released only after successful order completion, building trust and transparency throughout the transaction process. Built using Next.js, React.js, Redux Toolkit, Tailwind CSS, Node.js, Express.js, MongoDB, Socket.IO, Razorpay, Cloudinary, and JWT authentication, KrishiSetu demonstrates expertise in scalable full-stack development, secure authentication, payment gateway integration, real-time communication, weather API integration, and modern web application architecture.",
+    image: krishiSetu,
+    tags: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "Redux Toolkit", "React Redux", "Axios", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "bcryptjs", "Socket.IO", "Razorpay", "Cloudinary", "Multer", "Open-Meteo API", "Node-Cron", "Joi", "Helmet", "Express Rate Limit", "Winston", "Morgan", "REST API", "Git & GitHub", "Postman", "Render", "Vercel", "Dotenv"],
+    github: "https://github.com/Satyambhardwaj59/KrishiSetu",
+    webapp: "https://krishi-setu-dg2m.vercel.app/",
+  },
   {
     id: 14,
     title: "AI QUIZ GENERATOR",
