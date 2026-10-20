@@ -22,7 +22,7 @@ export function HeroRole() {
   useEffect(() => {
     if (reducedMotion) return;
 
-    const currentRole = roles[roleIndex];
+    const currentRole = roles[roleIndex] ?? roles[0];
     const isRoleComplete = characterIndex === currentRole.length;
     const delay = isDeleting ? 45 : isRoleComplete ? 1400 : 85;
     const timeoutId = window.setTimeout(() => {
@@ -44,7 +44,9 @@ export function HeroRole() {
     return () => window.clearTimeout(timeoutId);
   }, [characterIndex, isDeleting, reducedMotion, roleIndex]);
 
-  const visibleRole = reducedMotion ? roles[0] : roles[roleIndex].slice(0, characterIndex);
+  const visibleRole = reducedMotion
+    ? roles[0]
+    : (roles[roleIndex] ?? roles[0]).slice(0, characterIndex);
 
   return (
     <span aria-hidden="true" className="hero-role-slot">
