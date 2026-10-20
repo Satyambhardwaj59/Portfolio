@@ -2,10 +2,10 @@ import type { NavItem, SocialLink } from "@/types";
 
 export const siteConfig = {
   name: "Satyam Kumar",
-  role: "Frontend & Full-Stack Developer",
-  title: "Satyam Kumar | Frontend & Full-Stack Developer",
+  role: "Software Engineer",
+  title: "Satyam Kumar | Software Engineer",
   description:
-    "Satyam Kumar is a frontend and full-stack developer building fast, accessible web applications with React, Next.js, TypeScript, Node.js, Express and MongoDB.",
+    "Satyam Kumar is a software engineer building fast, accessible web applications with React, Next.js, TypeScript, Node.js, Express and MongoDB.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ??
     "https://portfolio-satyam-kumars-projects-4080f490.vercel.app").replace(/\/$/, ""),
   email: "satyambhardwaj59@gmail.com",

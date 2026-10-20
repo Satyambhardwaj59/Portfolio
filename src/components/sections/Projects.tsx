@@ -78,7 +78,7 @@ export function Projects() {
           description="Full-stack applications and smaller builds, each with source code and, where available, a live demo."
         />
 
-        <div className="grid gap-6 md:grid-cols-2 md:gap-8">
+        <div className="grid gap-6 md:grid-cols-2 2xl:grid-cols-3 md:gap-8">
           {featured.map((p) => (
             <FeaturedCard key={p.slug} project={p} />
           ))}

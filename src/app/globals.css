@@ -93,16 +93,40 @@ body {
   padding-inline: clamp(1.25rem, 4vw, 2.5rem);
 }
 
+.hero-role-slot {
+  display: inline-block;
+  width: calc(19ch + 2px);
+  height: 1.4em;
+  overflow: hidden;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  letter-spacing: 0;
+  line-height: 1.4;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+.hero-role-typewriter {
+  display: inline-block;
+  height: 100%;
+  border-right: 2px solid var(--accent);
+  font: inherit;
+  line-height: inherit;
+}
+
 /* Entrance + scroll reveal. Content stays visible without JS (reveal-ready is added by RevealOnScroll). */
 @media (prefers-reduced-motion: no-preference) {
   @keyframes hero-in {
     from { opacity: 0; transform: translateY(1rem); }
     to { opacity: 1; transform: none; }
   }
+  @keyframes hero-caret {
+    50% { border-color: transparent; }
+  }
   .hero-in {
     animation: hero-in 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
     animation-delay: calc(var(--i, 0) * 80ms);
   }
+  .hero-role-typewriter { animation: hero-caret 750ms step-end infinite; }
   .reveal-ready .reveal {
     opacity: 0;
     transform: translateY(1.25rem);
@@ -115,6 +139,7 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .hero-role-typewriter { border-right: 0; animation: none; }
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
